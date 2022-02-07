@@ -1,14 +1,14 @@
-import img from "./../images/Illustation/4girls.png"
+import Sec1 from "./homepage_components/Sec1";
+import Sec2 from "./homepage_components/Sec2";
+import Sec3 from "./homepage_components/sec3";
+import Sec4 from "./homepage_components/Sec4";
 const Homepage = () => {
   return (
     <div className='home-page'>
-        <article className="flex">
-          <div className="max-w-xl">
-            <h1>You Deserve Better Salons!</h1>
-            <p>We believe that body-care services like haircuts, etc... should be an enjoyable experience instead of an hectic one.</p>
-          </div>
-          <img className="max-w-2xl min-w-xl min-h-xl" src={require("./../images/Illustation/4girls.png")} alt="4 girls" />
-        </article>
+        <Sec1 />
+        <Sec2 />
+        <Sec3 />
+        <Sec4 />
     </div>
     );
 };
