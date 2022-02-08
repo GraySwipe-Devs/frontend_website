@@ -3,8 +3,11 @@
 const Sec2 = () => {
   return (
     <div className="description py-6 ">
-          <h1 className="flex pb-6 justify-center text-[#858287] text-5xl lg:text-7xl font-bold ">What Is </h1>
-          <div className="offers flex flex-row lg:flex-column justify-center space-x-8 bg-dark-violet text-white px-6 py-12">
+          <div className="flex items-center justify-center">
+            <p className="flex justify-center text-[#858287] text-5xl lg:text-7xl font-bold ">What Is </p>
+            <img className='max-w-sm relative top-1 lg:max-w-lg' src='https://i.imgur.com/snUQuP1.png' />
+          </div>
+          <div className="offers flex lg:flex-row justify-center space-x-8 bg-dark-violet text-white px-6 py-12 my-4">
             <div className="appointment max-w-sm">
               <img />
               <h2 className="font-semibold text-lg">Appoinment service</h2>
