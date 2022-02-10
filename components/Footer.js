@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="flex justify-start space-x-4 bg-black p-10 mt-6">
+    <footer className="flex justify-start space-x-4 bg-black text-gray-500 p-10 mt-6">
         <div className="company-tag-line">
             <h1>Gray Swipe</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et vitae diam euismod.</p>
