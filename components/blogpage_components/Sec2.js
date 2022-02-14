@@ -1,9 +1,9 @@
 
-const Sec3 = () => {
+const Sec2 = () => {
   return (
-    <div className="latestBlogs p-10 ">
-        <h1 className="text-5xl lg:text-7xl text-[#4D4D4D] font-bold">Recent Blogs</h1>
-        <div className="blogs mt-4 flex space-x-5">
+    <div className="haircare p-10 ">
+        <h1 className="text-3xl font-bold">Hair-care</h1>
+        <div className="haircare-blogs mt-4 flex space-x-5">
             <div className="blog py-8 max-w-xs">
                 <img />
                 <div className="date mb-2 text-sm">JAN 5,2022</div>
@@ -27,7 +27,7 @@ const Sec3 = () => {
             </div>        
         </div>
     </div>
-    );
-};
+  )
+}
 
-export default Sec3;
+export default Sec2

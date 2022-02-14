@@ -1,16 +1,16 @@
 
 const Sec4 = () => {
   return (
-    <div className="flex flex flex-col my-auto items-center">
-      <div className="betaTester m-10 max-w-[500px]">
-          <h1 className="text-5xl lg:text-7xl text-[#4D4D4D] font-bold">Wanna Be Our Beta Teset?</h1>
+    <div className=" my-auto">
+      <div className="betaTester m-10 ">
+          <h1 className="max-w-[500px] text-5xl lg:text-7xl text-[#4D4D4D] font-bold">Wanna Be Our Beta Teset?</h1>
 
-          <div className="imgAndForm flex justify-center space-x-20">
+          <div className="imgAndForm flex items-center space-x-20 justify-center m-10">
               <div className="image">
               <img className="min-w-[300px]" src="https://i.imgur.com/R1bCDmZ.png" />
               </div>
-              <div className="form flex flex-column">
-                  <form className="space-y-5 max-w-lg">
+              <div className="form ">
+                  <form className="space-y-5 max-w-lg flex flex-col">
                       <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="First Name" />
                       <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Last Name" />
                       <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Email Id" />
