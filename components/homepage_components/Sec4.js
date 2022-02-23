@@ -11,12 +11,12 @@ const Sec4 = () => {
               </div>
               <div className="form ">
                   <form className="space-y-5 max-w-lg flex flex-col">
-                      <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="First Name" />
-                      <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Last Name" />
-                      <input className="placeholder:text-black px-3 py-1 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Email Id" />
+                      <input className="placeholder:text-black px-3 py-3 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="First Name" />
+                      <input className="placeholder:text-black px-3 py-3 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Last Name" />
+                      <input className="placeholder:text-black px-3 py-3 border-[1px] border-dark-violet rounded-md" type="text" placeHolder="Email Id" />
                       <div className="checkbox flex items-center ">
                           <input className=" border-dark-violet" type="checkBox" />
-                          <p>Yes I like to recieve email from grayswipe</p>
+                          <p className="mx-2">Yes I like to recieve email from grayswipe</p>
                       </div>
 
                   </form>

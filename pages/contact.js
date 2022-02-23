@@ -10,8 +10,8 @@ const contact = () => {
   return (
     <div className='contact-page'>
         <NavBar/>
-        <div className='contactpage-content flex justify-center space-x-9 mx-10'>
-            <div className='grow'>
+        <div className='contactpage-content flex justify-center items-center space-x-9 mx-10'>
+            <div className=''>
                 <h1 className=' font-bold text-4xl m-10 text-center'>Contact us</h1>
                 <form className='flex flex-col'>
                     <div className='name flex'>

@@ -1,6 +1,6 @@
 import Sec1 from "./homepage_components/Sec1";
 import Sec2 from "./homepage_components/Sec2";
-import Sec3 from "./homepage_components/sec3";
+import Sec3 from "./homepage_components/Sec3";
 import Sec4 from "./homepage_components/Sec4";
 const Homepage = () => {
   return (
