@@ -8,7 +8,7 @@ const BlogPage = ({ allBlogs }) => {
       {
         allBlogs.map((blog) => {
           return (
-            <>
+            < div className="grid justify-items-center">
               <div className="max-w-sm rounded overflow-hidden shadow-lg border-slate-50 mb-20">
                 <div>
                   <img className="w-full" src={blog.image} alt="Sunset in the mountains" />
@@ -24,7 +24,7 @@ const BlogPage = ({ allBlogs }) => {
                   <Link href={`/blog/${blog.id}`}><a >Read More</a></Link>
                 </div>
               </div>
-            </>
+            </div>
           )
         })
       }

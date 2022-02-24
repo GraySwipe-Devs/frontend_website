@@ -70,15 +70,15 @@ const createblog = () => {
     }
 
     return (
-        <div>
-            <h3>Create A Blog !!</h3>
-            <input value={title} className='w-1/3 border-slate-50' type='text' placeholder='Title' onChange={(e) => { setTitle(e.target.value) }} /><br />
-            <textarea value={body} rows="10" columns="50" type='text' placeholder='Body' onChange={(e) => { setBody(e.target.value) }} />
+        <div className='grid justify-items-center ' >
+            <h3 className='text-center text-2xl font-bold ' >Create A Blog !!</h3>
+            <input value={title} className='w-1/3 border-4 border-black' type='text' placeholder='Title' onChange={(e) => { setTitle(e.target.value) }} /><br /><br />
+            <textarea className='border-2 border-black' value={body} rows="23" cols='70' type='text' placeholder='Body' onChange={(e) => { setBody(e.target.value) }} />
 
             {/* file input */}
             <div >
-                <div>
-                    <span>File</span>
+                <div className='border-4 border-indigo-500/100'>
+                    <span></span>
                     <input type='file' onChange={(e) => { setImage(e.target.files[0]) }} />
                 </div>
                 <div>
@@ -87,7 +87,7 @@ const createblog = () => {
             </div>
             {/* submit button */}
             <div>
-                <button type='submit' onClick={() => submitBlog()} >POST</button>
+                <button className='bg-yellow-300 p-3' type='submit' onClick={() => submitBlog()} >POST</button>
             </div>
 
         </div>
