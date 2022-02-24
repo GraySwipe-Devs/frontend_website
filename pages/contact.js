@@ -1,39 +1,33 @@
-import NavBar from './../components/NavBar'
-import Footer from './../components/Footer'
-import Toggle from 'react-toggle'
-import Switch from "react-switch";
-import { useState } from 'react'
 
 
 const contact = () => {
-    
-  return (
-    <div className='contact-page'>
-        <NavBar/>
-        <div className='contactpage-content flex justify-center '>
-            <div>
-                <h1 className=' font-bold text-4xl'>Contact us</h1>
-                <form className='flex flex-col'>
-                    <div className='mb-6'>
-                        <label>First Name</label>
-                        <input placeholder='First Name' />
-                    </div>
-                    <div className='mb-6'>
-                        <label>Last Name</label>
-                        <input placeholder='Last Name' />
-                    </div>
-                    <div className='mb-6'>
-                        <label>Email Address</label>
-                        <input placeholder='Email Address' />
-                    </div>
-                    <div className=''>
-                        <label>Your message</label>
-                        <br />
-                        <textarea placeholder='Text-area' />
-                    </div>
 
-                    
-                    {/* <label>
+    return (
+        <div className='contact-page'>
+            <div className='contactpage-content flex justify-center '>
+                <div>
+                    <h1 className=' font-bold text-4xl'>Contact us</h1>
+                    <form className='flex flex-col'>
+                        <div className='mb-6'>
+                            <label>First Name</label>
+                            <input placeholder='First Name' />
+                        </div>
+                        <div className='mb-6'>
+                            <label>Last Name</label>
+                            <input placeholder='Last Name' />
+                        </div>
+                        <div className='mb-6'>
+                            <label>Email Address</label>
+                            <input placeholder='Email Address' />
+                        </div>
+                        <div className=''>
+                            <label>Your message</label>
+                            <br />
+                            <textarea placeholder='Text-area' />
+                        </div>
+
+
+                        {/* <label>
                         <Toggle
                             defaultChecked={isToggled}
                             className='custom-classname'
@@ -45,13 +39,12 @@ const contact = () => {
                         <Switch onChange={this.handleChange} checked={this.state.checked} />
                     </label>
                     */}
-                </form>
+                    </form>
+                </div>
+
             </div>
-            
         </div>
-        <Footer/>
-    </div>
-  );
+    );
 }
 
 export default contact
