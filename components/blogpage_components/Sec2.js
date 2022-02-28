@@ -3,7 +3,7 @@ const Sec2 = () => {
   return (
     <div className="haircare p-10 ">
         <h1 className="text-3xl font-bold">Hair-care</h1>
-        <div className="haircare-blogs mt-4 flex space-x-5">
+        <div className="haircare-blogs mt-4 flex flex-col sm:flex-row sm:space-x-5">
             <div className="blog py-8 max-w-xs">
                 <img />
                 <div className="date mb-2 text-sm">JAN 5,2022</div>
