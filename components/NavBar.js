@@ -3,10 +3,10 @@ import Link from 'next/link'
 const NavBar = () => {
   return (
     <nav className='flex justify-between'>
-        <div className='logo'>
-            <a href='/'>
-                <img className='max-w-xs' src='https://i.imgur.com/snUQuP1.png' />
-            </a>
+        <div className='logo -mx-8'>
+            <Link href='/'>
+                <img className='max-w-xs' src='https://i.imgur.com/efI6ZRO.png' />
+            </Link>
         </div>
         <div className='my-8 mr-8'>
         <ul className=' items-center flex space-x-5 justify-end'>

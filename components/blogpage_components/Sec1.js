@@ -1,7 +1,8 @@
 import Image from "next/image"
 
 const Sec1 = () => {
-  return (   
+  return (
+    
         <img src="https://i.imgur.com/0qHFoe9.png" alt ="BLOG"/>
   )
 }
