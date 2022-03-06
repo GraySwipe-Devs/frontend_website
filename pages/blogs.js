@@ -9,7 +9,7 @@ const BlogPage = ({ allBlogs }) => {
         allBlogs.map((blog) => {
           return (
             < div className="grid justify-items-center">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg border-slate-50 mb-20">
+              <div className="sm:max-w-sm  md:max-w-2xl lg:max-w-4xl  rounded overflow-hidden shadow-lg border-slate-50 mb-20">
                 <div>
                   <img className="w-full" src={blog.image} alt="Sunset in the mountains" />
                   <span className="font-bold text-xl mb-2">{blog.title}</span>

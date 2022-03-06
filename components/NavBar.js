@@ -17,7 +17,9 @@ const NavBar = ({ user }) => {
     return (
         <nav className='flex justify-between'>
             <div className='logo'>
-                <img className='max-w-xs' src='https://i.imgur.com/snUQuP1.png' />
+                <a href='/'>
+                    <img className='max-w-xs' src='https://i.imgur.com/snUQuP1.png' />
+                </a>
             </div>
             <div className='my-8 mr-8'>
                 <ul className=' items-center flex space-x-5 justify-end'>
