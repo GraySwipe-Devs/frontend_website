@@ -4,12 +4,12 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAG-P-0PIGky82DeDCxNVvdFqqEtgQjW1g",
-    authDomain: "blog-demo-ver.firebaseapp.com",
-    projectId: "blog-demo-ver",
-    storageBucket: "blog-demo-ver.appspot.com",
-    messagingSenderId: "57619034329",
-    appId: "1:57619034329:web:e5e17426e9bb3d93c38ec8"
+    apiKey: "AIzaSyDKecUPMmApECkhXkaA-8lJF52BwZW1XpI",
+    authDomain: "blog-demo-ver-1ef94.firebaseapp.com",
+    projectId: "blog-demo-ver-1ef94",
+    storageBucket: "blog-demo-ver-1ef94.appspot.com",
+    messagingSenderId: "960815647897",
+    appId: "1:960815647897:web:36f91a0af1b439dda03c08"
 };
 
 if (!firebase.apps.length) { firebase.initializeApp(firebaseConfig); }
