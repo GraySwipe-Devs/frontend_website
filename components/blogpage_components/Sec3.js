@@ -4,7 +4,7 @@ const Sec3 = () => {
   return (
     <div className="skincare p-10 ">
         <h1 className="text-3xl font-bold">Skin-care</h1>
-        <div className="skincare-blogs mt-4 flex space-x-5">
+        <div className="skincare-blogs mt-4 flex flex-col sm:flex-row sm:space-x-5">
             <div className="blog py-8 max-w-xs">
                 <img />
                 <div className="date mb-2 text-sm">JAN 5,2022</div>

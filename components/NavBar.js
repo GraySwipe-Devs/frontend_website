@@ -2,6 +2,7 @@ import Link from 'next/link';
 import auth from '../firebase';
 const NavBar = ({ user }) => {
 
+
     const logout = (e) => {
         auth.signOut().then(() => {
             // Sign-out successful.
